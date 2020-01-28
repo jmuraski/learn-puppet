@@ -1,4 +1,4 @@
 file {'/tmp/hello.txt':
   ensure => file,
-  source => "files/hello.txt"
+  source => "/etc/puppetlabs/code/environments/production/files/hello.txt"
 }
